@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0 auto;
+}
+body{
+    margin: 0 auto;
+    align-items: center;
+    width: max-content;
+    background-image: radial-gradient( circle  at 5% 50%,  rgb(8, 32, 53) 0%, rgb(13, 94, 148) 90% , rgb(34, 81, 119) );
+height:max-content;
+color: white;
+font-family: 'Saira Semi Condensed', sans-serif;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+header{
+    width: 100%;
+   margin-left: 4rem;
+   margin-top: 2rem;
+ }
+
+ nav{
+     display: flex;
+     align-items:center;
+     gap: 10rem;
+ }
+
+.logo_con{
+    font-size: 1rem;
+    font-family: poppins;
+    
+ }
+ .nav a{
+    text-decoration:none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    
+ }
+ .nav li{
+    
+    list-style: none;
+
+ }
+ .nav ul{
+     gap: 4rem;
+     display:flex;
+     text-decoration:none;
+     
+ }
+.wallet_con{
+    margin-left: 2rem;
+    background-color: #80d5fa;
+    box-shadow: 2px 1px 10px cyan;
+}
+ .wallet_box{
+    color: navy;
+     padding: 1rem;
+ }
+
+ .section1{
+    /* min-width: 100%; */
+    margin: 0 auto;
+    align-content: center;
+    padding: 10rem;
+    /* margin-bottom: 0.5rem; */
+    max-width: 100%;
+    display: flex;
+    /* Height: 100%;
+    overflow: hidden; */
+ }
+.section1 img{
+    padding-top: 5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+ 
+ .intro_text{
+     padding-top: 1rem;
+    text-align: left;
+    display:inline-block;
+ }
+ .intro_text p{
+     font-size: 2rem;
+     color: cyan;
+ }
+
+ .intro_text h1{
+     font-size: 12rem;
+     padding-right: 2rem;
+     position: absolute;
+     top: 0;
+     padding-top: 19rem;
+     
+ }
+ .social_icons {
+     text-align: center;
+     padding: 1rem;
+     margin-top: 12rem;
+ }
+ .social_icons i{
+    color: cyan;
+   
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+.section2{
+    height: 100%;
+    width: 100vh;
+    /* margin: 0 auto; */
+    align-content: center;
+    padding-bottom: 10rem;
+    padding: 3rem;
+    margin-bottom: 1rem;
+    /* max-width: 100vh; */
+}
+.section_col{
+    display: flex;
+}
+.section_col hr{
+    position: absolute;
+    height: 110%;
+    width: 0%;
+    left: 60%;
+    
+}
+.About{
+    width: 100%;
+}
+.Roadmap{
+    margin-left: 5rem;
+}
+
+.roadmap{
+    text-align: center;
+    font-size: 3rem;
+    top: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+.section_col h1{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.section_col p{
+    font-size: 1.2rem;
+    color: cyan;
+    text-indent: 10%;
+    line-height: 3rem;
+}
+.Q1{
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 25rem;
+    padding: 2rem;
+    margin: 1rem;
+}
+.Q1 h1{
+    font-size: 2rem;
+}
+button{
+    padding: 1rem;
+    margin-left: 35%;
+    align-items:  center;
+    margin-top: 3rem;
+    font-size: 1rem;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    
+}
+button:hover{
+    box-shadow: 2px 1px 20px cyan;
+    border: cyan;
+   background-color: cyan;
+    cursor: pointer;
+    color: black;
+
+}
+.partners{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 5rem;
+    
+
+}
+.partners h1{
+    font-size: 3rem;
+}
+.logo_col{
+    margin-top: 4rem;
+}
+
+.partners img{
+    width: 20%;
+    height: 10%;
+}
+.top_logo{
+    justify-content: center;
+    gap: 5rem;
+    position: absolute;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 3rem;
+    width: 93%;
+    left: 0;
+    margin-bottom: 3rem;
+}
+
+footer{
+    min-width: 100%;
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 3rem;
+    margin-top: 10rem;   
+    
+    
+}
+.foot_links{
+    display: flex;
+}
+
+.useful a{
+    display: block;
+    justify-content: space-between;
+    padding: 3px;
+    padding-left: 3rem;
+    padding-right: 8rem;
+    color: rgb(153, 152, 152);
+    text-decoration: none;
+}
+.useful{
+    padding-top: 2rem;
+}
+.useful a:hover{
+    color: white;
+}
+.copy{
+    padding-top: 5rem;
+    color: cyan;
+    padding-left: 5rem;
+}
