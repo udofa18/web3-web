@@ -11,7 +11,7 @@ body{
     width: max-content;
     background-image: radial-gradient( circle  at 5% 50%,  rgb(8, 32, 53) 0%, rgb(13, 94, 148) 90% , rgb(34, 81, 119) );
 height:max-content;
-color: rgba(60, 46, 46, 0.698);
+color: white;
 font-family: 'Saira Semi Condensed', sans-serif;
 background-size: 100%;
 background-repeat: no-repeat;
@@ -188,7 +188,7 @@ button:hover{
 }
 .partners{
     margin: 0 auto;
-    text-align: center;
+    text-align: right;
     margin-top: 6rem;
     font-size: 5rem;
     
@@ -218,7 +218,8 @@ button:hover{
 }
 
 footer{
-    min-width: 100%;
+    margin: 0 auto;
+    max-width: 160%;
     background-color: rgba(0, 0, 0, 0.89);
     padding: 3rem;
     margin-top: 10rem;   
