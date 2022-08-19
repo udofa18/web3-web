@@ -11,7 +11,7 @@ body{
     width: max-content;
     background-image: radial-gradient( circle  at 5% 50%,  rgb(8, 32, 53) 0%, rgb(13, 94, 148) 90% , rgb(34, 81, 119) );
 height:max-content;
-color: white;
+color: rgba(60, 46, 46, 0.698);
 font-family: 'Saira Semi Condensed', sans-serif;
 background-size: 100%;
 background-repeat: no-repeat;
@@ -39,6 +39,7 @@ header{
     color: white;
     font-size: 1rem;
     font-weight: 500;
+    
     
  }
  .nav li{
